@@ -1,0 +1,225 @@
+.input-wrapper {
+	width: 300px;
+	margin: 0 auto 20px auto;
+}
+#submit {
+
+	margin: auto auto;
+	background-color: #5cb85c;
+	border: 1px solid #4cae4c;
+	color: white;
+	border-radius: 5px;
+	width: 130px;
+	height: 40px;
+	display: block !important;
+	margin-top: 50px;
+	font-size: 18px;
+	font-weight: bold;
+	float: left;
+	margin-right: 20px;
+}
+
+#submit:hover {
+	background-color: #449d44;
+	border: 1px solid #398439;
+}
+
+#survey-section {
+	display: none;
+	height: 400px;
+	overflow-y: scroll;
+}
+
+#survey {
+	margin: auto auto;
+	background-color: #2367aa;
+	border: 1px solid #1b4673;
+	color: white;
+	border-radius: 5px;
+	width: 130px;
+	height: 40px;
+	display: block !important;
+	margin-top: 50px;
+	font-size: 18px;
+	font-weight: bold;	
+	float: left;
+}
+
+#survey:hover {
+	background-color: #1b4673;
+	border: 1px solid #133456;
+}
+
+.feedback-form-wrapper label {
+	color: #1B4673;
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 15px;
+}
+
+.feedback-info {
+	float: left;
+	width: 400px;
+	height: 300px;
+}
+
+.feedback-info label {
+	width: 100px;
+	margin-left: 15px;
+}
+
+.feedback-info input {
+    background: linear-gradient(to bottom, #f7f7f8 0%,#ffffff 100%);
+	border-radius: 3px;
+	margin-bottom: 5px;
+	padding-left: 10px;
+	border: none;
+	color: #222222;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.4) inset, 0 -1px 0 rgba(0,0,0,0.06) inset;
+    height: 36px;
+    width: 281px;
+    position: relative;
+    left: 15px;
+
+    &::-webkit-input-placeholder {
+       color: #999999;
+    }
+    
+    &:-moz-placeholder {
+       color: #999999;
+    }
+}
+
+.feedback-form-wrapper input["text"] {
+	width: 98%;
+}
+
+.feedback-form-wrapper textarea {
+	resize: vertical;
+	border-radius: 4px;
+	color: #222222;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.4) inset, 0 -1px 0 rgba(0,0,0,0.06) inset;
+    background: linear-gradient(to bottom, #f7f7f8 0%,#ffffff 100%);
+    border: none;
+}
+
+#generic {
+	width: 400px;
+}
+
+.feedback-text {
+	float: right;
+	width: 350px;
+	height: 250px;
+	padding: 25px;
+}
+
+.feedback-form-wrapper {
+
+	width: 800px;
+	background-color: white;	
+	position: absolute;
+	left: 50%;
+	top: 80px;
+	z-index: 10000;
+	margin-left: -400px;
+	padding: 10px;
+	display: none;
+}
+
+.feedback-form-wrapper textarea {
+	width: 725px;
+	height: 150px;
+	margin: 10px 15px;
+}
+
+.feedback-form-wrapper img {
+	margin-left: -20px;
+	margin-top: -10px;
+}
+
+.feedback-overlay {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .8);
+	position: fixed;
+	z-index: 9999;
+	display: none;
+}
+
+.feedback {
+	width: 30px;
+	height: 120px;
+	background-color: #067f00;
+	position: fixed;
+	top: 150px;
+	z-index: 9999;
+	border-radius: 0 5px 5px 0;
+}
+
+.feedback:hover {
+	background-color: #066601;
+	cursor: pointer;
+}
+
+.feedback:hover .pencil-wrapper {
+	background-color: #034400;
+}
+
+.vertical{
+    writing-mode:tb-rl;
+    -webkit-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -o-transform: rotate(90deg);
+    white-space:nowrap;
+    display:block;
+    bottom:0;
+    width:20px;
+    height:20px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.pencil-wrapper {
+	width: 30px;
+	height: 30px;
+	color: #fff;
+	background-color: #066601;
+	border-radius: 0 5px 0 0;
+}
+
+.pencil {
+	background: url('/prestashop/modules/feedback/img/pencil.png') center no-repeat;
+	width: 30px;
+	height: 30px;
+	display: block;
+}
+
+.close-survey {
+	font-size: 28px;
+	color: #fff;
+	font-weight: bold;
+	position:absolute;
+	top: -40px;
+	right: 0;
+	cursor: pointer;
+}
+
+.error {
+	background: linear-gradient(to bottom, #ffe8e8 0%,#ffffff 100%) !important;	
+}
+
+#error_message {
+    color: #c93434;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#success_message {
+	color: #4cae4c;
+	font-size: 16px;
+    font-weight: bold;
+}
